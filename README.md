@@ -2,7 +2,7 @@
 
 Este é um projeto que replica a página de login do Instagram de forma responsiva e funcional. A página está hospedada no GitHub Pages e pode ser acessada pelo seguinte link:
 
-🔗 [Acessar a página](https://gabriel-jry.github.io/Clone-P-gina-Instagram/)
+🔗 [Acessar a página](https://gabrielfranca-dev.github.io/Instagram_projeto/)
 
 ## 📌 Características
 - Layout responsivo, adaptando-se a diferentes dispositivos.
@@ -15,11 +15,11 @@ Ao visualizar a página no GitHub Pages, as telas simuladas dentro do celular po
 ## 📥 Como executar localmente
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/gabriel-jry/Clone-P-gina-Instagram.git
+   git clone https://gabrielfranca-dev.github.io/Instagram_projeto/.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
-   cd Clone-P-gina-Instagram
+   cd Instagram_projeto
    ```
 3. Instale as dependências (caso utilize SCSS):
    ```bash
