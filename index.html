@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="shortcut icon" href="imgs/favicon/Instagram_icon.png" type="image/x-icon">
+    <title>Instagram - Estudo</title>
+    <style>
+        /* Estilo para a div de alerta */
+        .alerta {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: red;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .alerta button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="font">
+    <!-- Alerta deixando claro que este é um projeto de estudos -->
+    <div class="alerta" id="alerta">
+        <button onclick="fecharAlerta()">&times;</button>
+        <h1>Aviso Importante</h1>
+        <p>Este projeto foi criado apenas para fins educacionais. Não se trata de phishing ou qualquer atividade maliciosa. Nenhum dado real será coletado ou armazenado.</p>
+    </div>
+    
+    <main>
+        <section>
+            <img src="imgs/Smartphone/home-phones.png" alt="Imagem de telefone">
+            <div></div>
+        </section>
+
+        <section>
+            <div class="borda principal">
+                <div class="logo">
+                    <div></div>
+                </div>
+                
+                <!-- Formulário apenas para estudo, sem funcionalidade real -->
+                <form action="#" method="post">
+                    <p class="placeholder_hiden font">Telefone, nome de usuário ou email</p>
+                    <input type="text" placeholder="Telefone, nome de usuário ou email" onfocus="placeholder_hider()" onblur="limpar()">
+                    <input type="password" placeholder="Senha">
+                    <input type="button" value="Entrar">
+                </form>
+                
+                <div class="linha">
+                    <p>OU</p>
+                    <div></div>
+                </div>
+
+                <a class="link_1" href="#"><img src="imgs/login/facebook.png" alt="Facebook">Entrar com o Facebook</a>
+                <a class="link_2" href="#">Esqueceu a senha?</a>
+            </div>
+
+            <div class="borda secundaria">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+            
+            <div class="download">
+                <p>Obtenha o aplicativo.</p>
+                <div>
+                    <a href="#"><img src="imgs/download/google.png" alt="Google Play"></a>
+                    <a href="#"><img src="imgs/download/microsft.png" alt="Microsoft Store"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="#">Meta</a>
+            <a href="#">Sobre</a>
+            <a href="#">Blog</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Ajuda</a>
+            <a href="#">API</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Localização</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Threads</a>
+            <a href="#">Carregamento de contatos e não usuários</a>
+            <a href="#">Meta Verified</a>
+        </div>
+        <div>
+            <select>
+                <option value="pt-br" selected>Português (Brasil)</option>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+            </select>
+            <p>&#169; 2025 Instagram from Meta</p>
+        </div>
+    </footer>
+
+    <script>
+        function fecharAlerta() {
+            document.getElementById("alerta").style.display = "none";
+        }
+    </script>
+
+    <script src="script/main.js"></script>
+</body>
+</html>
