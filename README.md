@@ -2,7 +2,7 @@
 
 Este é um projeto que replica a página de login do Instagram de forma responsiva e funcional. A página está hospedada no GitHub Pages e pode ser acessada pelo seguinte link:
 
-🔗 [Acessar a página](https://gabrielfranca-dev.github.io/Instagram_projeto/)
+🔗 [Acessar a página](https://instagram-projeto.vercel.app/)
 
 ## 📌 Características
 - Layout responsivo, adaptando-se a diferentes dispositivos.
